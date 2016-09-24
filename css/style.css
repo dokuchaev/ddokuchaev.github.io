@@ -1,5 +1,5 @@
 /* General Blueprint Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
 @font-face {
 	font-family: 'bpicons';
 	font-weight: normal;
@@ -235,22 +235,12 @@ a:hover {
 	content: '\e004';
 }
 
-@media screen and (max-width: 40em) {
-	.bp-header {
-		text-align: center;
-	}
-	.bp-header > span {
-		text-indent: 30px;
-	}
-	.bp-header > span span:hover:before {
-		right: 0px;
-	}
-	.bp-header h1 {
-		font-size: 1.8em;
-		width: 100%;
-	}
-	.bp-header nav {
-		margin: 0;
-		width: 100%;
-	}
+#count{
+	text-align: center;
+	top: 30%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	font-size: 24px;
+	color: #4e4b52;
 }

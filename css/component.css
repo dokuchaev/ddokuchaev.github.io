@@ -467,4 +467,39 @@ display: table;;
 	.zoomer{
 		    height: 226px;
 	}
+	#count {
+		top: 20%;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.bp-header {
+		text-align: center;
+	}
+	.bp-header > span {
+		text-indent: 30px;
+	}
+	.bp-header > span span:hover:before {
+		right: 0px;
+	}
+	.bp-header h1 {
+		font-size: 1.8em;
+		width: 100%;
+	}
+	.bp-header nav {
+		margin: 0;
+		width: 100%;
+	}
+	.zoomer {
+	    height: 170px;
+	}
+	#count {
+    top: 18%;
+}
+}
+
+@media screen and (max-width: 374px) {
+	#count {
+		top: 36%;
+}
 }
