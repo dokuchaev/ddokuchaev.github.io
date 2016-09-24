@@ -317,8 +317,7 @@ $(document).ready(function(){
 	var k = $('.slide').length,
 		  c = $('#count'),
 			i = 1;
-
-			c.text(i + "/" + k)
+			c.text(i + "/" + k);
 
 $('.button--nav-next').on('click', function(){
 	i += 1;
@@ -331,7 +330,4 @@ $('.button--nav-prev').on('click', function(){
 		if (i < 1) {i = k}
 			c.text(i + "/" + k);
 })
-
-
-
 });
